@@ -1,0 +1,25 @@
+{
+    "name": "mica/composer-library-template",
+    "description": "Boilerplate package for creating other packages.",
+    "keywords": ["template", "composer", "package"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mica Paulo",
+            "email": "micapaulowork@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mica\\Template\\": "src/",
+            "App\\": "app"
+        }
+    }
+}
